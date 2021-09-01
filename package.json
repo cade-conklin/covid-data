@@ -1,0 +1,25 @@
+{
+  "name": "covid-data",
+  "version": "1.0.0",
+  "description": "Taking a look at COVID data and visualizing it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cade-conklin/covid-data.git"
+  },
+  "author": "Cade Conklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cade-conklin/covid-data/issues"
+  },
+  "homepage": "https://github.com/cade-conklin/covid-data#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "request": "^2.81.0"
+  }
+}
